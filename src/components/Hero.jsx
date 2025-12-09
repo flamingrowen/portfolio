@@ -22,7 +22,7 @@ const Hero = () => {
                     transition={{ duration: 0.5, delay: 0.1 }}
                     className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]"
                 >
-                    [Your Name]
+                    Rohith Anil Kumar
                 </motion.h1>
                 <motion.h2
                     initial={{ opacity: 0, x: -50 }}
@@ -30,7 +30,7 @@ const Hero = () => {
                     transition={{ duration: 0.5, delay: 0.2 }}
                     className="text-4xl sm:text-7xl font-bold text-[#8892b0]"
                 >
-                    I'm a Software Engineer.
+                    Software Development Engineer I.
                 </motion.h2>
                 <motion.p
                     initial={{ opacity: 0, x: -50 }}
@@ -38,7 +38,7 @@ const Hero = () => {
                     transition={{ duration: 0.5, delay: 0.3 }}
                     className="text-[#8892b0] py-4 max-w-[700px]"
                 >
-                    I’m an SDE 1 at Amazon specializing in building exceptional digital experiences. Currently, I’m focused on building scalable backend systems and accessible, human-centered products.
+                    Specializing in building exceptional digital experiences. Currently, I’m focused on building scalable backend systems and accessible, human-centered products at Amazon.
                 </motion.p>
                 <motion.div
                     initial={{ opacity: 0, x: -50 }}

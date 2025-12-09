@@ -14,17 +14,11 @@ const About = () => {
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className='sm:text-right text-4xl font-bold'>
-                        <p>Hi. I'm [Your Name], nice to meet you. Please take a look around.</p>
+                        <p>Hi. I'm Rohith, nice to meet you. Please take a look around.</p>
                     </div>
                     <div>
                         <p>
-                            I am passionate about building excellent software that improves
-                            the lives of those around me. I specialize in creating software
-                            for clients ranging from individuals and small-businesses all the
-                            way to large enterprise corporations. As an SDE 1 at Amazon, I have
-                            experience tackling complex problems and delivering high-quality
-                            solutions. I am currently seeking new opportunities to bring my
-                            skills to a team at Google or Uber.
+                            I am a Software Development Engineer at Amazon with 3 years of experience building scalable backend systems and high-performance web applications. My expertise lies in designing robust architectures, optimizing legacy code, and delivering customer-centric solutions in agile environments. I am passionate about engineering excellence, code quality, and solving complex technical challenges.
                         </p>
                     </div>
                 </div>
