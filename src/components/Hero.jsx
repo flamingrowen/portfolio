@@ -30,7 +30,7 @@ const Hero = () => {
                     transition={{ duration: 0.5, delay: 0.2 }}
                     className="text-4xl sm:text-7xl font-bold text-[#8892b0]"
                 >
-                    Software Development Engineer I.
+                    Software Development Engineer.
                 </motion.h2>
                 <motion.p
                     initial={{ opacity: 0, x: -50 }}

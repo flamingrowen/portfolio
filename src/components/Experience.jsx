@@ -14,7 +14,7 @@ const Experience = () => {
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
                         {/* Timeline Item 1 */}
                         <div className='bg-[#112240] p-6 rounded-lg shadow-md hover:scale-105 duration-300'>
-                            <h3 className='text-2xl font-bold text-[#ccd6f6]'>Software Development Engineer I</h3>
+                            <h3 className='text-2xl font-bold text-[#ccd6f6]'>Software Development Engineer</h3>
                             <p className='text-[#64ffda]'>Amazon</p>
                             <p className='text-sm text-[#8892b0] mb-4'>[Start Date] - Present</p>
                             <ul className='list-disc list-outside ml-5 space-y-2 text-[#8892b0]'>

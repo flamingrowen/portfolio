@@ -11,7 +11,7 @@ describe('Hero Component', () => {
 
     it('renders the job title', () => {
         render(<Hero />);
-        const titleElement = screen.getByText(/Software Development Engineer I/i);
+        const titleElement = screen.getByText(/Software Development Engineer/i);
         expect(titleElement).toBeInTheDocument();
     });
 });
