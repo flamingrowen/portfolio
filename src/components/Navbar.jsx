@@ -60,7 +60,7 @@ const Navbar = () => {
                             key={id}
                             className="px-4 cursor-pointer capitalize font-medium text-lg hover:text-[#64ffda] duration-200"
                         >
-                            <Link to={link} smooth duration={500}>
+                            <Link to={link} smooth duration={500} offset={-80}>
                                 {link}
                             </Link>
                         </li>
@@ -83,8 +83,8 @@ const Navbar = () => {
                 {/* Mobile Menu */}
                 <ul
                     className={`${nav
-                            ? 'flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-[#0a192f] text-gray-300 transform translate-x-0'
-                            : 'hidden transform translate-x-full'
+                        ? 'flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-[#0a192f] text-gray-300 transform translate-x-0'
+                        : 'hidden transform translate-x-full'
                         } transition-transform duration-300 ease-in-out`}
                 >
                     {links.map(({ id, link }) => (
@@ -92,7 +92,7 @@ const Navbar = () => {
                             key={id}
                             className="px-4 cursor-pointer capitalize py-6 text-4xl hover:text-[#64ffda]"
                         >
-                            <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>
+                            <Link onClick={() => setNav(!nav)} to={link} smooth duration={500} offset={-80}>
                                 {link}
                             </Link>
                         </li>

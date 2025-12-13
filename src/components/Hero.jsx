@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 
 const Hero = () => {
     return (
-        <div name="home" className="w-full min-h-screen bg-[#0a192f] pt-[80px]">
+        <div name="home" className="w-full h-auto bg-[#0a192f] pt-40 pb-20">
             {/* Container */}
             <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
                 <motion.p
