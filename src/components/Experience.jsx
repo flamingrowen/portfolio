@@ -2,7 +2,7 @@ import React from 'react';
 
 const Experience = () => {
     return (
-        <div name='experience' className='w-full h-screen bg-[#0a192f] text-gray-300'>
+        <div name='experience' className='w-full min-h-screen bg-[#0a192f] text-gray-300 py-16'>
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <div className='max-w-[1000px] w-full px-4'>
                     <div className='pb-8'>
