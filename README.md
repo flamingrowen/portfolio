@@ -49,21 +49,21 @@ Follow these steps to run the project locally on your machine.
 
 ## 🚀 Deployment
 
-This project is configured to deploy to **GitHub Pages** automatically.
+This project uses **GitHub Actions** for automated deployment.
 
 ### How it works
--   `predeploy`: Automatically builds the project (`vite build`) into a `dist` folder.
--   `deploy`: Pushes the `dist` folder to the `gh-pages` branch on GitHub.
+1.  **Push to Main**: Whenever code is pushed to the `main` branch, a workflow triggers.
+2.  **Automated Checks**: It runs `npm test` to ensure no bugs were introduced.
+3.  **Deploy**: If tests pass, it builds the project and updates the live site automatically.
 
-### To Deploy Updates
-Whenever you make changes to the code, run:
+### Manual Deployment (Optional)
+You can still deploy manually if needed:
 
 ```bash
 npm run deploy
 ```
 
-This will build the new version and publish it live to:
-**https://flamingrowen.github.io/portfolio**
+**Live Site**: [https://flamingrowen.github.io/portfolio](https://flamingrowen.github.io/portfolio)
 
 ## 📂 Project Structure
 
