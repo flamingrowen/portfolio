@@ -9,7 +9,7 @@ const Projects = () => {
                     <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#64ffda] font-heading'>
                         Projects
                     </p>
-                    <p className='py-6 font-mono text-[#64ffda]'>// Check out some of my recent work</p>
+                    <p className='py-6 font-mono text-[#64ffda]'>Check out some of my recent work</p>
                 </div>
 
                 {/* Grid Container */}
